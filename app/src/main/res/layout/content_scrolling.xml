@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="1. What Planet is this?"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/earth" />
+
+        <RadioGroup
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pluto"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="2. What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/mercury"/>
+        <RadioGroup
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="3. What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/uranus"/>
+        <RadioGroup
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pluto"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uranus"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/mars"/>
+        <RadioGroup
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptune"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/saturn"/>
+        <RadioGroup
+            android:id="@+id/radio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uranus"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptune"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/venus"/>
+        <RadioGroup
+            android:id="@+id/radio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_6c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_6d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/neptune"/>
+        <RadioGroup
+            android:id="@+id/radio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="@color/white">
+            <RadioButton android:id="@+id/radio_7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptune"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_7c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_7d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="What Planet is this?"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/jupiter"/>
+        <RadioGroup
+            android:id="@+id/radio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_8a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_8b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_8c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/radio_8d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uranus"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <Button android:id="@+id/scoreButton"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:background="@color/purple_500"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:onClick="submitScore"/>
+
+        <TextView android:id="@+id/scoreView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
